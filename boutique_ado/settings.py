@@ -25,7 +25,7 @@ SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-neerojstha-boutiqueadov-jfovdx3qwbk.ws-eu99.gitpod.io',]
+ALLOWED_HOSTS = ['8000-neerojstha-boutiqueadov-le1fvqzwpfr.ws-eu104.gitpod.io',]
 
 
 # Application definition
@@ -123,6 +123,10 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # Password validation
