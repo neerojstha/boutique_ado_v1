@@ -2,9 +2,9 @@ from django import forms
 from .models import UserProfile
 
 
-class OrderForm(forms.ModelForm):
+class UserProfileForm(forms.ModelForm):
     class Meta:
-        model = Order
+        model = UserProfile
         exclude = ('user',)
 
     def __init__(self, *args, **kwargs):
